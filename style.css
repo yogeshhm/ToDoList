@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-: #C4DFDF;
+    --secondary-: #D2E9E9;
+    --neutral-: #E3F4F4;
+    --light-: #F8F6F4;
+    --dark-: rgb(56,56,56);
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--neutral-);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    background-color: var(--light-);
+}
+.container > *{
+    width: 300px;
+    display: flex;
+    margin: 10px 0px;
+    /* border: 1px solid; */
+}
+.container h1{
+    justify-content: center;
+    color: var(--dark-);
+}
+.container h3{
+    margin-bottom: 1px ;
+    justify-content: left;
+    padding: 0px 10px;
+}
+.inpt{
+    margin-top: 0px;
+}
+.inpt input{
+    width: 80%;
+    border: none;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding: 0 5px;
+}
+.inpt input:focus{
+    outline: none;
+}
+.inpt .add-icon{
+    width: 20%;
+    text-align: center;
+    border: 1px solid;
+}
+.ary-box{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-);
+}
+.chkbox{
+    width: 15%;
+    text-align: center;
+}
+.list{
+    width: 70%;
+}
+.delete{
+    width: 15%;
+    text-align: center;
+}
