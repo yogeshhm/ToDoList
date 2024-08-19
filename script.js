@@ -6,7 +6,7 @@ let listSpan = $('<span class="list"></span>');
 let deleteSpan = $('<span class="material-symbols-outlined delete">delete</span>');
 aryBox.append(checkbox, listSpan, deleteSpan);
 
-
+// edit  for algorithm
 let aryContainer = [];
 let addItem = $('#plus-add');
 let itemValue = $('#item-value');
